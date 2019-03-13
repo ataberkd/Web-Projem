@@ -1,0 +1,73 @@
+.main-container{
+    width: 1200px;
+    height: 1500px;
+    border: 2px solid #000000;
+    margin: 0 auto;
+    text-align: center;
+}
+.header{
+	width: 1150px;
+	height: 75px;
+	border: 2px solid #000000;
+	margin: 0 auto;
+	margin-top: 25px;
+	background: brown;
+}
+.nav{
+	width: 800px;
+	height: 50px;
+	border: 1px solid #000000;
+	margin: 0 auto;
+	margin-top: 10px;	
+}
+.nav ul{
+	list-style: none;
+}
+.nav ul li{
+	 float: left;
+     min-width: 10%;
+     padding: 4px;
+     margin-left: 10px;
+     background-color: #fdf1e5;
+     text-align: center;
+     color: black;
+}
+.nav ul li a,a{
+	 text-decoration-color: black;
+}
+.konular{
+	width: 750px;
+	height: 1050px;
+	border: 1px solid #000000;
+	margin: 0 auto;
+	margin-left: 25px;
+	margin-top: 10px;
+	float: left;
+}
+.arama{
+	width: 350px;
+	height: 30px;
+	border: 1px solid #000000;
+	margin: 0 auto;
+	margin-right: 25px;
+	margin-top: 10px;
+    float: right;
+}
+.listeler{
+	width: 350px;
+	height: 1007px;
+	border: 1px solid #000000;
+	margin: 0 auto;
+	margin-right: 25px;
+	margin-top: 10px;
+	float: right;
+}
+.altbolum{
+	width: 1150px;
+	height: 230px;
+	border: 2px solid #000000;
+	margin: 0 auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
