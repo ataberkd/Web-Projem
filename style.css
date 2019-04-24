@@ -1,13 +1,19 @@
 body {
-	margin: 0px;
-	padding: 0px;
-	background-color: #FFEAD8;
+    margin: 0px;
+    padding: 0px;
+	background-color: #C6C6C6;
+}
+.Container {
+	width: 1349px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .header {
-	width: 100%;
+	width: 1349px;
 	height:	160px;
 	background-color: #FD6E00;
 }
+
 .header_anabaslik {
 	width: 500px;
 	height: 140px;
@@ -16,8 +22,8 @@ body {
 	margin-top: 18px;
 	cursor: pointer;
 }
+
 .header_sosyalmedya {
-	
 	width: 500px;
 	height: 140px;
 	float: right;
@@ -27,58 +33,279 @@ body {
 	margin-right: 50px;
 	cursor: pointer;
 }
+
 .header_sosyalmedya_icon {
-	
 	width: 50px;
-	transform: 0.10s;
+	transition: all 1s ease-in-out;
 }
 
 .header_sosyalmedya_icon:hover {
 	width: 70px;
 	cursor: pointer;
+	transform: rotate(360deg);
 }
+
 .nav {
 	width: 100%;
 	height: 50px;
-	background-color: #3C00BC;
+	background-color: #260079;
 }
-.menu {
-	width: 1675px;
-	height: 45px;
-	margin-left: 150px;
+.btn-1 {
+  width: 160px;
+  height: 30px;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  left: 100px;
+  border-radius: 20px;
+}
+ #Btn-1 {
+    background: #FD6E00;
+    color: #3C00BC;
+    font: bold 14px/30px Bahnschrift;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 160px;
+    height: 30px;
+    position: relative;
+    top: 0px;
+    transition: 250ms top, 350ms left;
+    }
+ #Btn-1:before {
+      content: attr(data-hover);
+      position: absolute;
+      top: 30px;
+      left: 0;
+      width: 100%;
+      background:linear-gradient(to bottom, #fd6e00 5%, #4c0094 100%);
+      color: #ffffff;
+      height: 30px;
+      
+    }
+ #Btn-1:hover {
+      top: -30px;
+    }
+
+.btn-2 {
+  width: 160px;
+  height: 30px;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  left: 100px;
+  border-radius: 20px;
+}
+ #Btn-2 {
+    background: #FD6E00;
+    color: #3C00BC;
+    font: bold 14px/30px Bahnschrift;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 160px;
+    height: 30px;
+    position: relative;
+    top: 0px;
+    transition: 250ms top, 350ms left;
+    }
+ #Btn-2:before {
+      content: attr(data-hover);
+      position: absolute;
+      top: 30px;
+      left: 0;
+      width: 100%;
+      background:linear-gradient(to bottom, #fd6e00 5%, #4c0094 100%);
+      color: #ffffff;
+      height: 30px;
+    }
+ #Btn-2:hover {
+      top: -30px;
+    }
+
+.btn-3 {
+  width: 160px;
+  height: 30px;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  left: 100px;
+  border-radius: 20px;
+}
+ #Btn-3 {
+    background: #FD6E00;
+    color: #3C00BC;
+    font: bold 14px/30px Bahnschrift;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 160px;
+    height: 30px;
+    position: relative;
+    top: 0px;
+    transition: 250ms top, 350ms left;
+    }
+ #Btn-3:before {
+      content: attr(data-hover);
+      position: absolute;
+      top: 30px;
+      left: 0;
+      width: 100%;
+      background:linear-gradient(to bottom, #fd6e00 5%, #4c0094 100%);
+      color: #ffffff;
+      height: 30px;
+    }
+ #Btn-3:hover {
+      top: -30px;
+    }
+.btn-4 {
+  width: 160px;
+  height: 30px;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  left: 100px;
+  border-radius: 20px;
+}
+ #Btn-4 {
+    background: #FD6E00;
+    color: #3C00BC;
+    font: bold 14px/30px Bahnschrift;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 160px;
+    height: 30px;
+    position: relative;
+    top: 0px;
+    transition: 250ms top, 350ms left;
+    }
+ #Btn-4:before {
+      content: attr(data-hover);
+      position: absolute;
+      top: 30px;
+      left: 0;
+      width: 100%;
+      background:linear-gradient(to bottom, #fd6e00 5%, #4c0094 100%);
+      color: #ffffff;
+      height: 30px;
+    }
+ #Btn-4:hover {
+      top: -30px;
+    }
+.btn-5 {
+  width: 160px;
+  height: 30px;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  left: 100px;
+  border-radius: 20px;
+}
+ #Btn-5 {
+    background: #FD6E00;
+    color: #3C00BC;
+    font: bold 14px/30px Bahnschrift;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 160px;
+    height: 30px;
+    position: relative;
+    top: 0px;
+    transition: 250ms top, 350ms left;
+    }
+ #Btn-5:before {
+      content: attr(data-hover);
+      position: absolute;
+      top: 30px;
+      left: 0;
+      width: 100%;
+      background:linear-gradient(to bottom, #fd6e00 5%, #4c0094 100%);
+      color: #ffffff;
+      height: 30px;
+    }
+ #Btn-5:hover {
+      top: -30px;
+    }
+
+.Arama-Motoru {
+	float: right;
+	margin-top: 10px;
+	margin-right: 35px;
+}
+.textbox-1 {
+	width: 180px;
+	height: 25px;
+	border-radius: 20px;
+	border: 1px solid #FD6E00;
+	outline: none;
+	background-color: white;
+	color: #3C00BC;
+	font: Bahnschrift;
+	position: relative;
+	bottom: 1px;
+}
+.textbox-1:focus{
+   background-color: #FD6E00;
+}
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px 5px;
+    border: 0px solid #fd6e00;
+    border-radius: 100px;
+    background: #fd6e00;
+    background: linear-gradient(to bottom, #fd6e00, #fd6e00);
+    box-shadow: #ff8400 0px 0px 6px 0px;
+    color: #ffffff;
+	position: relative;
+	bottom: 2px;
+}
+.button:hover, .button:focus {
+    border: 0px solid #ff8f00;
+    background: #ff8400;
+    background: linear-gradient(to bottom, #ff8400, #ff8400);
+    color: #ffffff;
+}
+.button:active {
+    background: #984200;
+    background: linear-gradient(to bottom, #984200, #fd6e00);
+}
+.button:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: -2px;
+    left: 4px;
+    background: url("ara.png") no-repeat left center transparent;
+    background-size: 100% 100%;
 }
 
-.menu-buton-1 {
-	width: 190px;
-	height: 35px;
-	display: inline-block;
-	line-height: 35px;
-	text-align: center;
-	font-family: Bahnschrift;
-	color: #FD6E00;
-	transform: 0.3s;
-	margin-top: 6px;
-}
-.menu-buton-1:hover{
-	color: #3C00BC;
-	cursor: pointer;
-	background-color: #FD6E00;
-	
-}
+
 /.yeni-cikanlar {
 	width: 500px;
-	height: 400px;
+	height: 500px;
 	border-radius: 1px;
 	margin-left: 150px;
 	margin-top: 20px;
-
 }
 .YC1 {
 	display: inline-block;
 	overflow: hidden;
 	height: 400px;
 	position: relative;
-	left:100px;
+	left:50px;
 	top:20px;
 
 }
@@ -87,38 +314,40 @@ body {
 	width: 280px;
 	height: 400px;
 	padding: 10px;
-	bottom: 90px;
+	bottom: 70px;
 	background-color: rgba(0,0,0,0.72);
 	color: #fff;
 	font-family: Bahnschrift;
+	font-size: 15px;
 	transition: all 1s;
 }
 #YC1H3 {
 	line-height: 1;
-	padding-bottom: 4px;
+	padding-bottom: 5px;
 }
 .YC1-Yazı:hover{
 	position: relative;
 	bottom: 400px;
 }
-   
+
 .YC2 {
 	display: inline-block;
 	overflow: hidden;
 	height: 400px;
 	position: relative;
-	left: 200px;
-	top: 20px;
+	left:100px;
+	top:20px;
 }
  .YC2-Yazı {
 	position: relative;
 	width: 280px;
 	height: 400px;
 	padding: 10px;
-	bottom: 90px;
+	bottom: 70px;
 	background-color: rgba(0,0,0,0.72);
 	color: #fff;
 	font-family: Bahnschrift;
+	font-size: 15px;
 	transition: all 1s;
 }
 #YC2H3 {
@@ -126,26 +355,28 @@ body {
 	padding-bottom: 4px;
 }
 .YC2-Yazı:hover{
-	position: relative;
+    position: relative;
 	bottom: 400px;
 }
+
 .YC3 {
 	display: inline-block;
 	overflow: hidden;
 	height: 400px;
 	position: relative;
-	left: 300px;
-	top: 20px;
+	left:150px;
+	top:20px;
 }
  .YC3-Yazı {
 	position: relative;
 	width: 280px;
 	height: 400px;
 	padding: 10px;
-	bottom: 90px;
+	bottom: 70px;
 	background-color: rgba(0,0,0,0.72);
 	color: #fff;
 	font-family: Bahnschrift;
+	font-size: 15px;
 	transition: all 1s;
 }
 #YC3H3 {
@@ -153,45 +384,158 @@ body {
 	padding-bottom: 4px;
 }
 .YC3-Yazı:hover{
-	position: relative;
+    position: relative;
 	bottom: 400px;
 }
 
-.footer-nav {
-	width: 100%;
-	height: 50px;
-	background-color: #FD6E00;
-	position: relative;
-	top:40px;
+.uye-girisi{
+	width: 230px;
+	height: 300px;
+	border-radius: 20px;
+	border: 3px solid #260079;
+    position: relative;
+	left: 1080px;
+	bottom: 385px;
 }
-.footer {
-width: 100%;
-height:	160px;
-background-color: #3C00BC;
+
+.baslik-1{
+	width: 170px;
+	height: 20px;
 }
-.menu-buton-2 {
-	width: 190px;
-	height: 35px;
-	display: inline-block;
-	line-height: 35px;
-	text-align: center;
+#uye-girisi-1{
+	font-size: 20px;
 	font-family: Bahnschrift;
-	color: #3C00BC;
-	transform: 0.3s;
-	margin-top: 6px;
-   }
-.menu-buton-2:hover{
-	color: #FD6E00;
-	cursor: pointer;
-	background-color: #3C00BC;
-	
+	text-align: center;
+	position: relative;
+	left: 25px;
+	color: #260079;
 	
 }
-.footer-menu{
-    width: 1675px;
-	height: 45px;
-	margin-left: 150px;
+
+.kullanici-adi-1{
+	width: 170px;
+	height: 20px;
+	position: relative;
+	left: 25px;
+	top: 20px;
+	border-radius: 20px;
+	border: 3px solid #FD6E00;
+	outline: none;
+	
+}
+
+.sifre-1{
+	width: 170px;
+	height: 20px;
+	position: relative;
+	left: 25px;
+	top: 30px;
+	border-radius: 20px;
+	border: 3px solid #FD6E00;
+	outline: none;
+}
+.beni-hatirla-1{
+	position: relative;
+	top: 35px;
+	left: 50px; 
+	
+}
+#beni-hatirla-1{
+	font-size: 15px;
+	font-family: Bahnschrift;
+	text-align: center;	
+}
+
+.sifremi-unuttum {
+	background:linear-gradient(to bottom, #fd6e00 5%, #4c0094 100%);
+	background-color:#ff1500;
+	border-radius:42px;
+	border:1px solid #ff1100;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Bahnschrift;
+	font-size:11px;
+	font-weight:bold;
+	padding:10px 40px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ff1100;
+	position: relative;
+	left: 25px;
+}
+.sifremi-unuttum:hover {
+	background:linear-gradient(to bottom, #4c0094 5%, #fd6e00 100%);
+	background-color:#000000;
+}
+.sifremi-unuttum:active {
+	position:relative;
+	top:1px;
 }
 
 
+.giris-1 {
+	background:linear-gradient(to bottom, #fd6e00 5%, #4c0094 100%);
+	background-color:#fd6e00;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Bahnschrift;
+	font-size:10px;
+	font-weight:bold;
+	padding:12px 30px;
+	text-decoration:none;
+	position: relative;
+	left: 25px;
+	top: 10px;
 }
+.giris-1:hover {
+	background:linear-gradient(to bottom, #4c0094 5%, #fd6e00 100%);
+	background-color:#4c0094;
+}
+.giris-1:active {
+	position:relative;
+	top:1px;
+}
+
+.kayit-ol-1 {
+	background:linear-gradient(to bottom, #fd6e00 5%, #4c0094 100%);
+	background-color:#fd6e00;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Bahnschrift;
+	font-size:10px;
+	font-weight:bold;
+	padding:12px 26px;
+	text-decoration:none;
+	position: relative;
+	left: 25px;
+	top: 10px;
+}
+.kayit-ol-1:hover {
+	background:linear-gradient(to bottom, #4c0094 5%, #fd6e00 100%);
+	background-color:#4c0094;
+}
+.kayit-ol-1:active {
+	position:relative;
+	top:1px;
+}
+
+.footer{
+	width: 1349px;
+	height:	210px;
+	background-color: #260079;
+
+
+
+
+
+
+
+
+
+
+
+
