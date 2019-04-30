@@ -19,14 +19,14 @@ body {
 	}
 }
 .Container {
-	width: 1335px;
+	width: 1330px;
   margin-left: auto;
   margin-right: auto;
 	margin-top: auto;
 	height: 2000px;
 }
 .header {
-	width: 1331px;
+	width: 1336px;
 	height:	160px;
 	background-color: #FD6E00;
 }
@@ -38,21 +38,6 @@ body {
 	margin-left: 150px;
 	margin-top: 18px;
 	cursor: pointer;
-  animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-}
-@keyframes tracking-in-expand-fwd {
-  0% {
-    letter-spacing: -0.5em;
-    transform: translateZ(-700px);
-    opacity: 0;
-  }
-  40% {
-    opacity: 0.6;
-  }
-  100% {
-    transform: translateZ(0);
-    opacity: 1;
-  }
 }
 
 .header_sosyalmedya {
@@ -76,9 +61,8 @@ body {
 	cursor: pointer;
 	transform: rotate(360deg);
 }
-
 .nav {
-	width: 1325px;
+	width: 100%;
 	height: 50px;
 	background-color: #260079;
 	border: 3px solid #FD6E00;
@@ -325,100 +309,13 @@ body {
     background: url("ara.png") no-repeat left center transparent;
     background-size: 100% 100%;
 }
-.yeni-cikanlar {
+.Hakkimizda {
 	width: 1359px;
-	height: 500px;
+	height: 1400px;
 	border-radius: 1px;
 	margin-left: 150px;
 	margin-top: 20px;
 }
-.YC1 {
-	display: inline-block;
-	overflow: hidden;
-	height: 400px;
-	position: relative;
-	top:20px;
-	right: 100px;
-
-}
-.YC1-Yazı {
-	position: relative;
-	width: 280px;
-	height: 400px;
-	padding: 10px;
-	bottom: 70px;
-	background-color: rgba(0,0,0,0.72);
-	color: #fff;
-	font-family: Bahnschrift;
-	font-size: 15px;
-	transition: all 1s;
-}
-#YC1H3 {
-	line-height: 1;
-	padding-bottom: 5px;
-}
-.YC1-Yazı:hover{
-	position: relative;
-	bottom: 400px;
-}
-
-.YC2 {
-	display: inline-block;
-	overflow: hidden;
-	height: 400px;
-	position: relative;
-	right:50px;
-	top:20px;
-}
- .YC2-Yazı {
-	position: relative;
-	width: 280px;
-	height: 400px;
-	padding: 10px;
-	bottom: 70px;
-	background-color: rgba(0,0,0,0.72);
-	color: #fff;
-	font-family: Bahnschrift;
-	font-size: 15px;
-	transition: all 1s;
-}
-#YC2H3 {
-	line-height: 1;
-	padding-bottom: 4px;
-}
-.YC2-Yazı:hover{
-    position: relative;
-	bottom: 400px;
-}
-
-.YC3 {
-	display: inline-block;
-	overflow: hidden;
-	height: 400px;
-	position: relative;
-	top:20px;
-}
- .YC3-Yazı {
-	position: relative;
-	width: 280px;
-	height: 400px;
-	padding: 10px;
-	bottom: 70px;
-	background-color: rgba(0,0,0,0.72);
-	color: #fff;
-	font-family: Bahnschrift;
-	font-size: 15px;
-	transition: all 1s;
-}
-#YC3H3 {
-	line-height: 1;
-	padding-bottom: 4px;
-}
-.YC3-Yazı:hover{
-    position: relative;
-	bottom: 400px;
-}
-
 .uye-girisi{
 	width: 230px;
 	height: 300px;
@@ -426,7 +323,7 @@ body {
 	border: 3px solid #260079;
     position: relative;
 	left: 950px;
-	bottom: 350px;
+	bottom: -50px;
 	background-color: #FD6E00;
 }
 
@@ -451,7 +348,7 @@ body {
 	left: 25px;
 	top: 20px;
 	border-radius: 20px;
-	border: 3px solid #260079;
+	border: 3px solid #FD6E00;
 	outline: none;
 	
 }
@@ -463,7 +360,7 @@ body {
 	left: 25px;
 	top: 30px;
 	border-radius: 20px;
-	border: 3px solid #260079;
+	border: 3px solid #FD6E00;
 	outline: none;
 }
 .beni-hatirla-1{
@@ -552,61 +449,97 @@ body {
 	position:relative;
 	top:1px;
 }
-
-.konular{
-	width: 1050px;
-    height: 820px;
-	position: relative;
-	bottom: 30px;
+.populer-kitaplar{
+	width: 230px;
+	height: 820px;
 	border-radius: 20px;
 	border: 3px solid #260079;
+    position: relative;
+	left: 950px;
+	bottom: -160px;
 	background-color: #FD6E00;
 }
-.konu-1{
-	width: 1025px;
-	height: 350px;
-	background-color: transparent;
+
+.baslik-2{
+	width: 170px;
+	height: 20px;
+}
+#uye-girisi-2{
+	font-size: 20px;
+	font-family: Bahnschrift;
+	text-align: center;
 	position: relative;
-	left: 0px;
-	top: 20px;
+	left: 25px;
+	color: #260079;
+	
 }
 
-
-.yazar-resim {
+.swing {
+    animation: swing ease-in-out 1s infinite alternate;
+    transform-origin: center -20px;
+    float:left;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
 	position: relative;
-	top: 50%;
-	left: 200px;
-	transform: translate(-50%px,-50%px);
-	height: 300px;
-	width: 300px;
-	background-image: url("konuresim-2.jpg");
-	background-size: cover;
-	border: 3px solid #fff;
-	overflow: hidden;
-	animation: animate1 linear 5s infinite;
+	top: 40px;
+	right: 10px;
+}
+.swing img {
+    border: 5px solid #260079;
+    display: block;
+}
+.swing:after{
+    content: '';
+    position: absolute;  
+    width: 20px; height: 20px;  
+    border: 1px solid #999;
+    top: -10px; left: 50%;
+    z-index: 0;
+    border-bottom: none;
+    border-right: none;
+    transform: rotate(45deg);
+}
+.swing:before{
+    content: '';
+    position: absolute;
+    width: 5px; height: 5px;
+    top: -14px;left: 54%;
+    z-index: 5;
+    border-radius: 50% 50%;
+    background: #000;
+}
+ 
+@keyframes swing {
+    0% { transform: rotate(3deg); }
+    100% { transform: rotate(-3deg); }
+}
+.hakkimizda-baslik {
+  color: #FD6E00;
+  white-space: nowrap;
+  position: relative;
+  bottom: 1100px;
+  left: 900px;
+  transform: translate(-50%, -50%);
+  font-size: 3em;
+  font-family: Bahnschrift;
+  letter-spacing: 0.1em;
+  transition: 0.3s;
+  text-shadow: 1px 1px 0 grey, 1px 2px 0 grey, 1px 3px 0 grey, 1px 4px 0 grey,
+    1px 5px 0 grey, 1px 6px 0 grey, 1px 7px 0 grey, 1px 8px 0 grey,
+    5px 13px 15px black;
+
 }
 
-@keyframes animate1 
-{
-	0%
-	{
-		transform: translate(-50%,-50%)skewY(5deg);
-	}
-    50%
-	{
-		transform: translate(-50%,-50%)skewY(-5deg);
-	}
-    100%
-	{
-		transform: translate(-50%,-50%)skewY(5deg);
-	}
-
-
+.hakkimizda-baslik:hover {
+  transition: 0.3s;
+  transform: scale(1.1)translate(-50%, -50%);
+  text-shadow: 1px -1px 0 grey, 1px -2px 0 grey, 1px -3px 0 grey,
+    1px -4px 0 grey, 1px -5px 0 grey, 1px -6px 0 grey, 1px -7px 0 grey,
+    1px -8px 0 grey, 5px -13px 15px black, 5px -13px 25px #808080;
 }
 .box{
   position: relative;
-  bottom: 150px;
-  left: 700px;
+  bottom: 950px;
+  left: 380px;
   transform: translate(-50%, -50%);
   width: 600px;
   height: 300px;
@@ -708,26 +641,37 @@ body {
   
 } 
 .box p{
-	font-family: Bahnschrift;
-	font-size: 14px;
-}
-.box h2{
-	font-family: Bahnschrift;
+  font-family: Bahnschrift;
+  font-size: 14px;
 }
 
-.konu-2{
-	width: 1025px;
-	height: 350px;
-	background-color: transparent;
-	position: relative;
-	right: 350px;
-	top: 350px;
+.iletisim-baslik {
+  color: #FD6E00;
+  white-space: nowrap;
+  position: relative;
+  bottom: 1000px;
+  left: 950px;
+  transform: translate(-50%, -50%);
+  font-size: 3em;
+  font-family: Bahnschrift;
+  letter-spacing: 0.1em;
+  transition: 0.3s;
+  text-shadow: 1px 1px 0 grey, 1px 2px 0 grey, 1px 3px 0 grey, 1px 4px 0 grey,
+    1px 5px 0 grey, 1px 6px 0 grey, 1px 7px 0 grey, 1px 8px 0 grey,
+    5px 13px 15px black;
+}
+.iletisim-baslik:hover {
+  transition: 0.3s;
+  transform: scale(1.1)translate(-50%, -50%);
+  text-shadow: 1px -1px 0 grey, 1px -2px 0 grey, 1px -3px 0 grey,
+    1px -4px 0 grey, 1px -5px 0 grey, 1px -6px 0 grey, 1px -7px 0 grey,
+    1px -8px 0 grey, 5px -13px 15px black, 5px -13px 25px #808080;
 }
 
 .box2{
   position: relative;
-  bottom: 150px;
-  left: 700px;
+  bottom: 850px;
+  left: 380px;
   transform: translate(-50%, -50%);
   width: 600px;
   height: 300px;
@@ -768,6 +712,8 @@ body {
   padding:20px;
   text-align:center;
   box-shadow: 0 5px 10px rgba(9,0,0,0.5);
+  font-size: 24px;
+  font-family: Bahnschrift;
   
 }
 
@@ -792,8 +738,6 @@ body {
   transform:rotate(180deg);
 }
 
-
-
 .box2 span:before
 {
   content: '';
@@ -801,137 +745,37 @@ body {
   width:100%;
   height: 2px;
   background: #FD6E00;
-  animation: animate3 4s linear infinite;
+  animation: animate2 4s linear infinite;
 }
 
-@keyframes animate3 {
+@keyframes animate2 {
   0% {
   transform:scaleX(0);
   transform-origin: left;
   }
   50%
   {
-    transform:scaleX(1);
+  transform:scaleX(1);
   transform-origin: left;
   }
   50.1%
   {
-    transform:scaleX(1);
+  transform:scaleX(1);
   transform-origin: right;
     
   }
   
   100%
   {
-    transform:scaleX(0);
+  transform:scaleX(0);
   transform-origin: right;
-    
+  
   }
   
-  
 } 
-
 .box2 p{
-	font-family: Bahnschrift;
-	font-size: 13px;
-}
-.box2 h2{
-	font-family: Bahnschrift;
-}
-
-.yazar-resim2 {
-	position: relative;
-	top: -450px;
-	left: 1175px;
-	transform: translate(-50%px,-50%px);
-	height: 300px;
-	width: 300px;
-	background-image: url("konuresim-1.jpg");
-	background-size: cover;
-	border: 3px solid #fff;
-	overflow: hidden;
-	animation: animate4 linear 5s infinite;
-}
-
-@keyframes animate4 
-{
-	0%
-	{
-		transform: translate(-50%,-50%)skewY(5deg);
-	}
-    50%
-	{
-		transform: translate(-50%,-50%)skewY(-5deg);
-	}
-    100%
-	{
-		transform: translate(-50%,-50%)skewY(5deg);
-	}
-
-}
-
-.populer-kitaplar{
-	width: 230px;
-	height: 820px;
-	border-radius: 20px;
-	border: 3px solid #260079;
-    position: relative;
-	left: 1100px;
-	bottom: 700px;
-	background-color: #FD6E00;
-}
-
-.baslik-2{
-	width: 170px;
-	height: 20px;
-}
-#uye-girisi-2{
-	font-size: 20px;
-	font-family: Bahnschrift;
-	text-align: center;
-	position: relative;
-	left: 25px;
-	color: #260079;
-	
-}
-
-.swing {
-    animation: swing ease-in-out 1s infinite alternate;
-    transform-origin: center -20px;
-    float:left;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
-	position: relative;
-	top: 40px;
-	right: 10px;
-}
-.swing img {
-    border: 5px solid #260079;
-    display: block;
-}
-.swing:after{
-    content: '';
-    position: absolute;  
-    width: 20px; height: 20px;  
-    border: 1px solid #999;
-    top: -10px; left: 50%;
-    z-index: 0;
-    border-bottom: none;
-    border-right: none;
-    transform: rotate(45deg);
-}
-.swing:before{
-    content: '';
-    position: absolute;
-    width: 5px; height: 5px;
-    top: -14px;left: 54%;
-    z-index: 5;
-    border-radius: 50% 50%;
-    background: #000;
-}
- 
-@keyframes swing {
-    0% { transform: rotate(3deg); }
-    100% { transform: rotate(-3deg); }
+  font-family: Bahnschrift;
+  font-size: 14px;
 }
 
 .nav2 {
@@ -941,7 +785,7 @@ body {
 	border: 3px solid #260079;
 	border-radius: 20px 20px 0px 0px;
 	position: relative;
-	top: 440px;
+	top: 120px;
 }
 .btn-11 {
   width: 160px;
@@ -950,7 +794,7 @@ body {
   display: inline-block;
   position: relative;
   top: 10px;
-  right: 150px;
+  left: 55px;
   border-radius: 20px;
 }
  #Btn-11 {
@@ -988,7 +832,7 @@ body {
   display: inline-block;
   position: relative;
   top: 10px;
-  right: 150px;
+  left: 55px;
   border-radius: 20px;
 }
  #Btn-22 {
@@ -1025,7 +869,7 @@ body {
   display: inline-block;
   position: relative;
   top: 10px;
-  right: 150px;
+  left: 55px;
   border-radius: 20px;
 }
  #Btn-33 {
@@ -1061,7 +905,7 @@ body {
   display: inline-block;
   position: relative;
   top: 10px;
-  right: 150px;
+  left: 55px;
   border-radius: 20px;
 }
  #Btn-44 {
@@ -1097,7 +941,7 @@ body {
   display: inline-block;
   position: relative;
   top: 10px;
-  right: 150px;
+  left: 55px;
   border-radius: 20px;
 }
  #Btn-55 {
@@ -1128,11 +972,11 @@ body {
     }
 
 .footer {
-    width: 1341px;
+    width: 1336px;
     height:	200px;
     background-color: #260079;
     position: relative;
-    top:430px;
+    top:120px;
 }
 .footer_anabaslik{
 	width: 500px;
@@ -1142,7 +986,5 @@ body {
 	margin-top: 18px;
 	cursor: pointer;
 	position: relative;
-	bottom: 350px;
-	right: 250px;
-  animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	
 }
